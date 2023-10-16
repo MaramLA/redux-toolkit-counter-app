@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: rgb(240, 225, 225);
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin-top: 8rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  /* background: rgb(93, 160, 157); */
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-size: 40pt;
+  padding: 4rem;
+  width: 25rem;
+  /* height: 20rem; */
+  border-radius: 50px;
+}
+
+.container .counter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.container .contorls {
+  display: flex;
+  gap: 3rem;
+  font-size: 25pt;
+  color: black;
+}
+
+.container .contorls .counter-controler {
+  border: 3px solid black;
+  padding: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container .contorls .counter-controler:hover {
+  background: white;
+}
